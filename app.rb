@@ -4,7 +4,6 @@ require 'roda'
 require_relative 'jwt'
 
 class App < Roda
-  plugin :status_handler
   plugin :request_headers
 
   route do |r|
